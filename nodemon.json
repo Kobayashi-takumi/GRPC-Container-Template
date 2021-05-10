@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["tests/**/*.ts"],
+  "exec": "yarn node --loader ts-node/esm ./src/index.ts"
+}
